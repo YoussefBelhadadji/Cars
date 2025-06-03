@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&#038;display=swap" rel="stylesheet" />
+        <title>nos voitures</title>
+    </head>
+<body>
+    <header class="header">
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <a href="#" class="logo"> <span>You</span>dnane</a>
+        <nav class="navbar">
+            <a href="index.html">home</a>
+            <a href="cars.html"class="active">nos voitures</a>      
+            <a href="Team.html">Équipe</a> 
+        </nav>
+        <div id="login-btn">
+            <button class="btn">login</button>
+            <i class="fa-solid fa-user"></i>
+        </div>
+
+    </header>
+    <!-- end header -->
+    <div class="login-contnair">
+        <span  class="fas fa-times" id="close-login-form"></span>
+        <form id="form" action="/">
+            <h1>Inscription</h1>
+            <div class="input-control">
+                <label for="username">Nom d'utilisateur</label>
+                <input id="username" name="username" type="text" required>
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="email">Email</label>
+                <input id="email" name="email" type="text">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="password">Mot de pass</label>
+                <input id="password"name="password" type="password">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="password2">mot de passe à nouveau</label>
+                <input id="password2"name="password2" type="password">
+                <div class="error"></div>
+            </div>
+            <button type="submit">S'inscrire</button>
+        </form>
+    </div>
+    <section class="cars" id="home">
+        <img src="image/3.jpg" alt="">
+        <div class="title">    
+            <h1 class="h1-cars">CHOISISSEZ <h1 class="color">VOTRE VOITURE</h1></h1>
+        </div>
+        <span class="second-title">Flotte de voitures de luxe</span>
+    </section>
+    <!-- start bar -->
+    <h1 class="heading"style="margin:0 0 35px 0"> nos <span>partenaires</span></h1>
+    <div class="bar-container">
+        <div class="bar-logo">
+        <img src="image/2 (1).png" alt="Logo 1">
+        <img src="image/3 (1).png" alt="Logo 2"> 
+        <img src="image/5 (1).png" alt="Logo 3"> 
+        <img src="image/7.png" alt="Logo 1">
+        <img src="image/land.png" alt="Logo 2"> 
+        <img src="image/loto.png" alt="Logo 3"> 
+        <img src="image/911.png" alt="Logo 3"> 
+        <img src="image/audi-removebg-preview.png" alt="Logo 3"> 
+        <img src="image/McLaren-Logo.png" alt="Logo 3"> 
+        </div>   
+        <div class="bar-logo">
+        <img src="image/2 (1).png" alt="Logo 1">
+        <img src="image/3 (1).png" alt="Logo 2"> 
+        <img src="image/5 (1).png" alt="Logo 3"> 
+        <img src="image/7.png" alt="Logo 1">
+        <img src="image/land.png" alt="Logo 2"> 
+        <img src="image/loto.png" alt="Logo 3"> 
+        <img src="image/911.png" alt="Logo 3"> 
+        <img src="image/audi-removebg-preview.png" alt="Logo 3"> 
+        <img src="image/McLaren-Logo.png" alt="Logo 3"> 
+        </div>
+      </div>
+     <!-- end bar -->
+  <!-- START FEARTD --> 
+  <section class="featured">
+    <h1 class="heading"><span>featured </span> cars</h1>
+    <div class="featured-slid">
+        <div class="wrapper">
+            <div class="box">
+                <img src="image/7.jpg" alt="">
+                <h3>Lamborghini Urus</h3>
+                <div class="details"> 
+                    <span><i class="omfi-door"></i> 4 Seats</span> 
+                    <span><i class="omfi-transmission"></i> Auto</span>
+                    <span><i class="omfi-luggage"></i> 2 Bags</span>
+                </div>
+                <div class="price">$273,880</div>
+                <a href="https://www.lamborghini.com/en-en/models/urus" class="btn">check out</a>
+            </div>
+            <div class="box">
+                <img src="image/12.jpg" alt="">
+                <h3>Rolls Royce Cullinan</h3>
+                <div class="details"> 
+                    <span><i class="omfi-door"></i> 4 Seats</span> 
+                    <span><i class="omfi-transmission"></i> Auto</span>
+                    <span><i class="omfi-luggage"></i> 4 Bags</span>
+                </div>
+                <div class="price">$391,750</div>
+                <a href="https://www.rolls-roycemotorcars.com/en_US/showroom/cullinan.html" class="btn">check out</a>
+            </div>
+            <div class="box">
+                <img src="image/15.jpg" alt="">
+                <h3>AUDI Q8</h3>
+                <div class="details"> 
+                    <span><i class="omfi-door"></i> 4 Seats</span> 
+                    <span><i class="omfi-transmission"></i> Auto</span>
+                    <span><i class="omfi-luggage"></i> 3 Bags</span>
+                </div>
+                <div class="price">$78 257</div>
+                <a href="https://www.audi-mediacenter.com/en/audi-q8-11816" class="btn">check out</a>
+            </div>
+            <div class="box">
+                <img src="image/14.jpg" alt="">
+                <h3>Audi RS7 Sportback</h3>
+                <div class="details"> 
+                    <span><i class="omfi-door"></i> 4 Seats</span> 
+                    <span><i class="omfi-transmission"></i> Auto</span>
+                    <span><i class="omfi-luggage"></i> 2 Bags</span>
+                </div>
+                <div class="price">$146 791</div>
+                <a href="https://www.audi-mediacenter.com/en/audi-rs-7-sportback-49" class="btn">check out</a>
+            </div>
+            <div class="box">
+                <img src="image/13.jpg" alt="">
+                <h3>Bentley Continental</h3>
+                <div class="details"> 
+                    <span><i class="omfi-door"></i> 4 Seats</span> 
+                    <span><i class="omfi-transmission"></i> Auto</span>
+                    <span><i class="omfi-luggage"></i> 2 Bags</span>
+                </div>
+                <div class="price">$465,800</div>
+                <a href="https://www.bentleymotors.com/en.html" class="btn">check out</a>
+            </div>
+            <div class="box">
+                <img src="image/8.jpg" alt="">
+                <h3>Aston Martin DBX</h3>
+                <div class="details"> 
+                    <span><i class="omfi-door"></i> 4 Seats</span> 
+                    <span><i class="omfi-transmission"></i> Auto</span>
+                    <span><i class="omfi-luggage"></i> 2 Bags</span>
+                </div>
+                <div class="price">$248,172</div>
+                <a href="https://www.astonmartin.com/fr/models/dbx707" class="btn">check out</a>
+            </div>
+            <div class="box">
+                <img src="image/9 (1).jpg" alt="">
+                <h3>Bugatti Mistral W16</h3>
+                <div class="details"> 
+                    <span><i class="omfi-door"></i> 4 Seats</span> 
+                    <span><i class="omfi-transmission"></i> Auto</span>
+                    <span><i class="omfi-luggage"></i> 2 Bags</span>
+                </div>
+                <div class="price">$8,539,900</div>
+                <a href="https://www.bugatti.com/the-bugatti-models/w16-mistral-the-ultimate-roadster/" class="btn">check out</a>
+            </div> 
+        </div>
+    </div>
+  </section>
+  <!-- END FEARTD --> 
+  <!-- start c-team -->
+  <section class="c-team">
+    <h1>ACHETEZ VOTRE VOITURE</h1>
+    <p class="CTA">Intéressé à acheter?.</p>
+    <p class="cta-2">N'hésitez pas et envoyez-nous un message.</p>
+    <div class="buttons">
+        <div class="box">
+             <i class="fa-brands fa-whatsapp icon"></i>
+            <a href="https://wa.me/your-phonenumber" class="whatsapp-button">WhatsApp</a></div>
+       <div class="box"> 
+        <i class="fa-solid fa-location-arrow icon"style="color:White;"></i>
+        <a href="index.html" class="contact-button">Contact Us</a>
+    </div>
+    </div>
+</section>
+  <!-- end c-team -->
+   <!-- start footer -->
+ <footer>
+    <div class="container">
+        <div class="box">
+            <h3>Youcef & adnane</h3>
+            <ul class="social">
+                <li>
+                  <a href="#" class="facebook">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="twitter">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="Github">
+                    <i class="fab fa-github"></i>
+                  </a>
+                </li>
+              </ul>
+        </div>
+        <div class="box">
+            <ul class="links">
+                <li><a href="#">Important Link 1</a></li>
+                <li><a href="#">Important Link 2</a></li>
+                <li><a href="#">Important Link 3</a></li>
+                <li><a href="#">Important Link 4</a></li>
+                <li><a href="#">Important Link 5</a></li>
+              </ul>
+        </div>
+        <div class="box">
+            <div class="line">
+              <i class="fas fa-map-marker-alt fa-fw"></i>
+              <div class="info">Algeria, oran, Inside The Sphinx, Room Number 220</div>
+            </div>
+            <div class="line">
+              <i class="far fa-clock fa-fw"></i>
+              <div class="info">Business Hours: From 10:00 To 18:00</div>
+            </div>
+            <div class="line">
+              <i class="fas fa-phone-volume fa-fw"></i>
+              <div class="info">
+                <span>+213723456789</span>
+                <span>+21358765432</span>
+              </div>
+            </div>
+          </div>
+          <div class="box footer-gallery">
+            <img decoding="async" src="image/12.jpg" alt="" />
+            <img decoding="async" src="image/13.jpg" alt="" />
+            <img decoding="async" src="image/15.jpg" alt="" />
+            <img decoding="async" src="image/9.jpg" alt="" />
+            <img decoding="async" src="image/3.jpg" alt="" />
+            <img decoding="async" src="image/7.jpg" alt="" />
+          </div>
+    </div>
+    <p class="copyright">Made With &lt;3 By Adnane Benhmida & Youcef Belhadadji</p>
+</footer>
+<!-- end footer -->
+    <script src="script.js"></script>
+</body>
+</html>

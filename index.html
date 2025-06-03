@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&#038;display=swap" rel="stylesheet" />
+    <title>Document</title>
+</head>
+<body>
+    <!-- start header  -->
+    <header class="header">
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <a href="#" class="logo"> <span>You</span>dnane</a>
+        <nav class="navbar">
+            <a href="#home" class="active">home</a>
+            <a href="#about-us">à propos de nous</a>
+            <a href="cars.html">nos voitures</a>      
+            <a href="Team.html">Équipe</a>
+            <a href="#contact">Contact</a>      
+        </nav>
+        <div id="login-btn">
+            <button class="btn">login</button>
+            <i class="fa-solid fa-user"></i>
+        </div>
+
+    </header>
+    <!-- end header -->
+<!--  start login form -->
+<div class="login-contnair">
+    <span  class="fas fa-times" id="close-login-form"></span>
+    <form id="form" action="/">
+        <h1>Inscription</h1>
+        <div class="input-control">
+            <label for="username">Nom d'utilisateur</label>
+            <input id="username" name="username" type="text" required>
+            <div class="error"></div>
+        </div>
+        <div class="input-control">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="text">
+            <div class="error"></div>
+        </div>
+        <div class="input-control">
+            <label for="password">Mot de pass</label>
+            <input id="password"name="password" type="password">
+            <div class="error"></div>
+        </div>
+        <div class="input-control">
+            <label for="password2">mot de passe à nouveau</label>
+            <input id="password2"name="password2" type="password">
+            <div class="error"></div>
+        </div>
+        <button type="submit">S'inscrire</button>
+    </form>
+</div>
+<!--  end login form -->
+<!-- start home sections -->
+<section class="home" id="home">
+    <h1 class="h1-home">trouve ton voiture</h1>
+    <img src="image/mclaren-750s-2023.jpg" alt="" class="h1-home">
+    <a href="cars.html" class="btn">explorer les voitures</a>
+</section>
+<!-- end home sections -->
+<!-- start section -->
+<section class="icons">
+    <div class="icon">
+        <i class="fas fa-home"></i>
+        <div class="content">
+            <h3>+150</h3>
+            <p>branches</p>
+        </div>
+    </div>
+    <div class="icon">
+        <i class="fas fa-car"></i>
+        <div class="content">
+            <h3>+42</h3>
+            <p>Voitures Mclaren</p>
+        </div>
+    </div>
+    <div class="icon">
+        <i class="fas fa-user"></i>
+        <div class="content">
+            <h3>+190</h3>
+            <p>client</p>
+        </div>
+    </div>
+    <div class="icon">
+        <i class="fas fa-user"></i>
+        <div class="content">
+            <h3>+5000</h3>
+            <p>visiteur</p>
+        </div>
+    </div>
+</section>
+<!-- start about-us -->
+<h1 class="heading"><span>About </span>us</h1>
+<section class="about-us" id="about-us">
+    <div class="about">
+      <img src="image/about.png" class="pic">
+      <div class="text">
+        <h5>Nous sommes plus qu'un<span> constructeur automobile</span></h5>
+          <p>Bienvenue sur Youdnane, votre destination privilégiée pour l'achat de voitures en ligne ! Forts de notre expérience dans l'industrie automobile, nous nous engageons à garantir une expérience d'achat de voiture fluide et transparente pour nos clients. Que vous recherchiez une voiture neuve ou d'occasion, notre vaste inventaire propose un large éventail de marques et de modèles pour répondre à tous les budgets et préférences</p>
+        <div class="data">
+        <a href="#" class="btn">Hire Me</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end about-us -->
+<!-- start section vehicles-->
+    <section class="vehicles" id="vehicles">
+        <h1 class="heading"> véhicules <span>populaires</span></h1>
+        <div class="swiper vehicles-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="image/Untitled design.png" alt="">
+                    <div class="content">
+                        <h3>BUGATTI CHIRON Super Sport</h3>
+                        <div class="price"> <span> prix : </span> 4,5M$/-</div>
+                        <p>
+                            
+                            <span class="fas fa-circle"></span> 2022
+                            <span class="fas fa-circle"></span> automatic
+                            <span class="fas fa-circle"></span> essence
+                            <span class="fas fa-circle"></span> 1600 ch
+                        </p>
+                        <a href="#" class="btn">check out</a>
+                    </div>
+                </div>
+            
+            <div class="swiper-slide box">
+                <img src="image/1.png" alt="">
+                <div class="content">
+                    <h3>Mclaren 750s </h3>
+                    <div class="price"> <span> price : </span> $65000/-</div>
+                    <p>
+                        
+                        <span class="fas fa-circle"></span> 2023
+                        <span class="fas fa-circle"></span> automatic
+                        <span class="fas fa-circle"></span> petrol
+                        <span class="fas fa-circle"></span> 800ch
+                    </p>
+                    <a href="#" class="btn">check out</a>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <img src="image/2.png" alt="">
+                <div class="content">
+                    <h3>Mclaren 750</h3>
+                    <div class="price"> <span> price : </span> $268255/-</div>
+                    <p>
+                        
+                        <span class="fas fa-circle"></span> 2022
+                        <span class="fas fa-circle"></span> automatic
+                        <span class="fas fa-circle"></span> petrol
+                        <span class="fas fa-circle"></span> 500ch
+                    </p>
+                    <a href="#" class="btn">check out</a>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <img src="image/5.png" alt="">
+                <div class="content">
+                    <h3>ferari sf90</h3>
+                    <div class="price"> <span> price : </span> $1.5M/-</div>
+                    <p>
+                        
+                        <span class="fas fa-circle"></span> 2024
+                        <span class="fas fa-circle"></span> automatic
+                        <span class="fas fa-circle"></span> ÉLECTRIQUE
+                        <span class="fas fa-circle"></span> 1000ch
+                    </p>
+                    <a href="#" class="btn">check out</a>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <img src="image/bwm.png" alt="">
+                <div class="content">
+                    <h3>BWM M4</h3>
+                    <div class="price"> <span> price : </span> $165000/-</div>
+                    <p>
+                        
+                        <span class="fas fa-circle"></span> 2023
+                        <span class="fas fa-circle"></span> automatic
+                        <span class="fas fa-circle"></span> petrol
+                        <span class="fas fa-circle"></span> 750ch
+                    </p>
+                    <a href="#" class="btn">check out</a>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <img src="image/3.png" alt="">
+                <div class="content">
+                    <h3> Porsche 911</h3>
+                    <div class="price"> <span> price : </span> $12600/-</div>
+                    <p>
+                        
+                        <span class="fas fa-circle"></span> 2021
+                        <span class="fas fa-circle"></span> automatic
+                        <span class="fas fa-circle"></span> Essence
+                        <span class="fas fa-circle"></span> 525 ch
+                    </p>
+                    <a href="#" class="btn">check out</a>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- end vehicles -->
+    <!-- new section starts -->
+  <div class="newletter">
+    <h3>Abonnez-vous pour les dernières mises à jour</h3>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus, quaerat?</p>
+    <form action="">
+        <input type="email" placeholder="enter your email" name="" id="">
+        <input type="submit" class="subscribe" name="" id="">
+    </form>
+    </div>
+    <!-- new section ends -->
+    <!-- start contact -->
+    <section class="contact" id="contact">
+        <h1 class="heading">Contactez <span>nous</span></h1>
+        <div class="row">
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10174749.339760331!2d-9.139556549999979!3d51.493589099999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876056825acf289%3A0x131ed000675c304b!2sLamborghini%20London!5e0!3m2!1sfr!2sdz!4v1712283177748!5m2!1sfr!2sdz" 
+        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+        <form action="">
+            <h3>Entrer en contact</h3>
+            <input type="text" placeholder="name" class="box">
+            <input type="email" placeholder="exmple@gmail.com" class="box">
+            <input type="number" placeholder="number" class="box">
+            <textarea placeholder="message" class="box" cols="" rows=""></textarea>
+            <input class="btn" type="submit" value="envoyer le message">
+        </form>
+    </div>
+    </section>
+    <!-- end contact -->
+ <!-- start footer -->
+ <footer>
+    <div class="container">
+        <div class="box">
+            <h3>Youcef & adnane</h3>
+            <ul class="social">
+                <li>
+                  <a href="#" class="facebook">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="twitter">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="Github">
+                    <i class="fab fa-github"></i>
+                  </a>
+                </li>
+              </ul>
+        </div>
+        <div class="box">
+            <ul class="links">
+                <li><a href="#">Important Link 1</a></li>
+                <li><a href="#">Important Link 2</a></li>
+                <li><a href="#">Important Link 3</a></li>
+                <li><a href="#">Important Link 4</a></li>
+                <li><a href="#">Important Link 5</a></li>
+              </ul>
+        </div>
+        <div class="box">
+            <div class="line">
+              <i class="fas fa-map-marker-alt fa-fw"></i>
+              <div class="info">Algeria, oran, Inside The Sphinx, Room Number 220</div>
+            </div>
+            <div class="line">
+              <i class="far fa-clock fa-fw"></i>
+              <div class="info">Business Hours: From 10:00 To 18:00</div>
+            </div>
+            <div class="line">
+              <i class="fas fa-phone-volume fa-fw"></i>
+              <div class="info">
+                <span>+213723456789</span>
+                <span>+21358765432</span>
+              </div>
+            </div>
+          </div>
+          <div class="box footer-gallery">
+            <img decoding="async" src="image/12.jpg" alt="" />
+            <img decoding="async" src="image/13.jpg" alt="" />
+            <img decoding="async" src="image/15.jpg" alt="" />
+            <img decoding="async" src="image/9.jpg" alt="" />
+            <img decoding="async" src="image/3.jpg" alt="" />
+            <img decoding="async" src="image/7.jpg" alt="" />
+          </div>
+    </div>
+    <p class="copyright">Made With &lt;3 By Adnane Benhmida & Youcef Belhadadji</p>
+</footer>
+<!-- end footer -->
+    
+<script src="script.js"></script>
+</body>
+</html>
